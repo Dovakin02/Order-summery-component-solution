@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(./images/pattern-background-desktop.svg) no-repet;
+  background-size: 100%;
+
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.card > img {
+  width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-content {
+  width: 400px;
+  padding: 3rem;
+  text-align: center;
+  background-color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.card .card-content h1 {
+  font-size: 28px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.card .card-content > p {
+  margin: 20px 0;
+  line-height: 1.6;
+  color: hsl(224, 23%, 55%);
+}
+
+.card .card-content .plan {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 15px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.card .card-content .plan img {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.card .card-content .plan .plan-text h2 {
+  font-weight: 900;
+  font-size: 16px;
+  color: hsl(223, 47%, 23%);
+}
+
+.card .card-content .plan .plan-text p {
+  color: hsl(224, 23%, 55%);
+  margin-top: 5px;
+}
+
+.card .card-content .plan a {
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+  font-weight: 900;
+  margin-left: 4rem;
+}
+
+.card .card-content .plan a:hover {
+  text-decoration: none;
+}
+
+.card .card-content button {
+  display: block;
+  margin: 25px auto 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.card .card-content button[type="submit"] {
+  width: 100%;
+  color: hsl(225, 100%, 98%);
+  padding: 13px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card .card-content .btn {
+  color: hsl(224, 23%, 55%);
+}
